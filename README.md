@@ -1,4 +1,4 @@
 # sodaAdvisor
-Spinner
-btns
-how to create an array
+- Spinner
+- btns
+- how to create an array
