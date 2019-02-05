@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sodaAdvisor</string>
+    <string name="btnName">Find Soda</string>
+    <string-array name="sodaList">
+        <item>Pepso</item>
+        <item>7-UP</item>
+        <item>Mirenda</item>
+        <item>Diet</item>
+    </string-array>
+</resources>
