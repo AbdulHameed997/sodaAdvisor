@@ -28,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
         String soda_type = String.valueOf(sp.getSelectedItem());
         expert = new sodaExpert();
         List = expert.getFlavour(soda_type);
-        String result = "";
+        String result = "   ";
         for(String value: List) {
-            
+            result = result + " " + value;
         }
+        tv.setText(result);
     }
 }
