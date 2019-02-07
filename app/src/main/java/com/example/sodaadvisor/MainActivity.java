@@ -19,10 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickBtn(View v) {
         //code for the onclick
-        Integer.valueOf()
         sp = (Spinner)findViewById(R.id.spinner);
         tv = (TextView)findViewById(R.id.textView);
+        String soda_type = String.valueOf(sp.getSelectedItem());
 
-        sp.getSelectedItem()
     }
 }
